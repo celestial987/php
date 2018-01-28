@@ -23,7 +23,7 @@
     $area = $PI * $radio * $radio;// area del circulo
     echo "Hallar la media de: \n15\n-3\n0";
     echo "<br/>";
-    echo "Hallar el area del circulo de PI = 3.1415, radio = 15";
+    echo "Halla el area del circulo de PI = 3.1415, radio = 15";
     echo "<br/>";
     echo "Hola,\n" . $nombre . "La media es de: " . $media . " El area del circulo es: " . $area; // Imprime un texto + la variable
     // boolean

@@ -24,7 +24,9 @@
     "\nla poblacion de palmira tiene: ". $poblacion["palmira"] . "\nEl tachira tiene: ". $poblacion["tachira"];
 
     // Añadimos al array
-    $poblacion["cariñito"]= "Kelly";
+    $poblacion["cariñito"]= "\nKelly";
+    echo $poblacion["cariñito"];
+    $poblacion["cariñito"]= "\nVar modificada";
     echo $poblacion["cariñito"];
 ?>
 </body>

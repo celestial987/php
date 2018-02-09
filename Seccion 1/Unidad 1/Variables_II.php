@@ -13,7 +13,7 @@
 <body>
     <h1>arrays y objets</h1>
 <?php
-    /*array*/
+    /*array => para agregar un valor al array de esa posicion en ves de 0, 1, 2 es borota,palmira,tachira*/
     $poblacion = array (
         "borota"=> 50,
         "palmira"=> 60,
@@ -21,12 +21,12 @@
     );
 
     echo "la poblacion de borota tiene una cantidad de habitantes de: " . $poblacion["borota"] . 
-    "\nla poblacion de palmira tiene: ". $poblacion["palmira"] . "\nEl tachira tiene: ". $poblacion["tachira"];
+    "\nla poblacion de palmira tiene: ". $poblacion["palmira"] . "\nEl tachira tiene: ". $poblacion["tachira"] . "</br>";
 
     // Añadimos al array
-    $poblacion["cariñito"]= "\nKelly";
-    echo $poblacion["cariñito"];
-    $poblacion["cariñito"]= "\nVar modificada";
+    $poblacion["cariñito"]= "Kelly";
+    echo $poblacion["cariñito"]. "</br>";
+    $poblacion["cariñito"]= "Kelly del carmen";
     echo $poblacion["cariñito"];
 ?>
 </body>

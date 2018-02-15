@@ -1,6 +1,6 @@
 <?php
-$precio = 1.2; // Precio del producto
-$pagado = 2; // Pagado por el cliente
+$precio = 1000; // Precio del producto
+$pagado = 2000; // Pagado por el cliente
 
 // array con los billetes y monedas disponibles
 $disponible = array(500, 200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01);
@@ -22,9 +22,13 @@ do {
         $i++;// incremente, pasa a la siguiente moneda       
         $i++;// Incrementa el segundo elemento encontrado
         }
+        
     echo "$".($disponible[$i])."€ </br>";    
     $cambio = $cambio - $disponible[$i]; // se le resta la moneda usada
-}while ($cambio > $disponible[count($disponible)-1]); /* mientras el $cambio sea mayor que una de las monedas
+    
+        
+}while ($cambio > $disponible[count($disponible)-1]);
+ /* mientras el $cambio sea mayor que una de las monedas
 disponibles entonces cuando; ya $cambio es 0 por que es menor que una de las moneda para. */
 
 ?>
